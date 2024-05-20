@@ -1,11 +1,11 @@
 server:
-  port: 8081
+  port: 8089
 spring:
   application:
-    name: fraud
+    name: notification
   datasource:
     username: postgres
-    url: jdbc:postgresql://localhost:2345/fraud
+    url: jdbc:postgresql://localhost:2345/notification
     password: pg123
 
   jpa:
@@ -16,12 +16,12 @@ spring:
         dialect: org.hibernate.dialect.PostgreSQLDialect
         format_sql: true
     show-sql: true
-#  zipkin:
-#    base-url: http://localhost:9411
-#  rabbitmq:
-#    addresses: localhost:5672
-#  profiles:
-#    active: default
+  zipkin:
+    base-url: http://localhost:9411
+  rabbitmq:
+    addresses: localhost:5672
+  profiles:
+    active: default
 eureka:
   client:
     service-url:
