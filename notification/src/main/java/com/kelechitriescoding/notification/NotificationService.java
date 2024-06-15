@@ -9,10 +9,12 @@ import java.time.LocalDateTime;
 
 @AllArgsConstructor
 @Service
+@Slf4j
 public class NotificationService {
     private final NotificationRepository notificationRepository;
 
     public String send(NotificationRequest notificationRequest){
+        log.info("Sending Notification");
         notificationRepository.save(
                 Notification.builder()
                         .toCustomerId(notificationRequest.toCustomerId())
@@ -22,6 +24,7 @@ public class NotificationService {
                         .sentAt(LocalDateTime.now())
                         .build()
         );
+        log.info("Notification sent!!!");
         return "Notification sent!!!";
     }
 }
