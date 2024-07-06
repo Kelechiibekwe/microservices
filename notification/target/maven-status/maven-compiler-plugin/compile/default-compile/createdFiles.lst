@@ -1,0 +1,9 @@
+com\kelechitriescoding\notification\NotificationApplication.class
+com\kelechitriescoding\notification\NotificationService.class
+com\kelechitriescoding\Main.class
+com\kelechitriescoding\notification\NotificationConfig.class
+com\kelechitriescoding\notification\NotificationController.class
+com\kelechitriescoding\notification\NotificationRepository.class
+com\kelechitriescoding\notification\Notification$NotificationBuilder.class
+com\kelechitriescoding\notification\rabbitmq\NotificationConsumer.class
+com\kelechitriescoding\notification\Notification.class

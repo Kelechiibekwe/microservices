@@ -1,0 +1,9 @@
+com\kelechitriescoding\customer\CustomerRepository.class
+com\kelechitriescoding\customer\CustomerController.class
+com\kelechitriescoding\customer\Customer.class
+com\kelechitriescoding\Main.class
+com\kelechitriescoding\customer\CustomerRegistrationRequest.class
+com\kelechitriescoding\customer\CustomerApplication.class
+com\kelechitriescoding\customer\CustomerService.class
+com\kelechitriescoding\customer\Customer$CustomerBuilder.class
+com\kelechitriescoding\customer\CustomerConfig.class
