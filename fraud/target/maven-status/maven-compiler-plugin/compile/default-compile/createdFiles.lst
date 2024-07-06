@@ -1,0 +1,7 @@
+com\kelechitriescoding\fraud\FraudApplication.class
+com\kelechitriescoding\fraud\FraudCheckHistoryRepository.class
+com\kelechitriescoding\Main.class
+com\kelechitriescoding\fraud\FraudCheckService.class
+com\kelechitriescoding\fraud\FraudController.class
+com\kelechitriescoding\fraud\FraudCheckHistory$FraudCheckHistoryBuilder.class
+com\kelechitriescoding\fraud\FraudCheckHistory.class

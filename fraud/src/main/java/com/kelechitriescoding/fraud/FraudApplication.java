@@ -8,7 +8,7 @@ import javax.swing.*;
 
 @SpringBootApplication
 @EnableEurekaClient
-public class FraudApplication {
+public class  FraudApplication {
     public static void main (String[] args){
 
         SpringApplication.run(FraudApplication.class, args);

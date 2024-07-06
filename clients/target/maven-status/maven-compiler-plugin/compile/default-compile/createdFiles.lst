@@ -1,0 +1,5 @@
+com\kelechitriescoding\clients\notification\NotificationClient.class
+com\kelechitriescoding\clients\fraud\FraudClient.class
+com\kelechitriescoding\Main.class
+com\kelechitriescoding\clients\fraud\FraudCheckResponse.class
+com\kelechitriescoding\clients\notification\NotificationRequest.class
