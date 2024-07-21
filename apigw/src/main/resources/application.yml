@@ -15,7 +15,7 @@ spring:
             - Path=/api/v1/customers/**
 #  rabbitmq:
 #    addresses: localhost:5672
-#  profiles:
+#  profiles:application.yml
 #    active: default
 eureka:
   client:
