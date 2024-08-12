@@ -15,3 +15,12 @@ The application architecture is divided into the following components:
 - Config Server: Manages configuration for the microservices.
 - Private Docker Registry: Stores Docker images for the services.
 - Sleuth and Zipkin: For distributed tracing of the services.
+
+## Technology Stack
+- Backend: Spring Boot, Java
+- Databases: PostgreSQL
+- Messaging: RabbitMQ
+- Containerization: Docker
+- Service Discovery: Eureka
+- Configuration Management: Spring Cloud Config
+- Distributed Tracing: Sleuth, Zipkin
