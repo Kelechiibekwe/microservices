@@ -1,4 +1,4 @@
-# Project Name
+# Fraud Detector Microservices Application
 ## Overview
 This project is a microservices-based application that includes services for customer management, fraud detection, and notifications. 
 It leverages Docker for containerization, message queues for asynchronous communication, and various databases for data persistence.
